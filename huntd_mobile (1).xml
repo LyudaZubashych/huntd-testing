@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S7</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>For logged-out users</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Sign In&quot; Page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C238</id>
+				<title>The logged-out user should be able to sign in by filling in the required fields of the &quot; Sign In&quot; form with valid data and tapping on [Sign In] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<assignedto>Lyuda Zubashych</assignedto>
+												<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Page title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Email&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C239</id>
+				<title>The user should not be able to sign in with an empty &quot;Email&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<assignedto>Lyuda Zubashych</assignedto>
+												<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Password&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C240</id>
+				<title>The user should not be able to sign in with an empty &quot;Password&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<assignedto>Lyuda Zubashych</assignedto>
+												<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Sign in] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Forgot password&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C241</id>
+				<title>The logged-out user should be redirected to the &quot;Forgot Password&quot; Page by tapping  the &quot;Forgot password&quot; link.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Sign in with Google] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C242</id>
+				<title>The user should be redirected to the Google authentication page by tapping on [Sign in with Google] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Sign up&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C243</id>
+				<title>The logged-out user should be redirected to the &quot;Sign Up&quot; Page by tapping  the &quot;Sign Up&quot; link.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Sign Up&quot; Page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C207</id>
+				<title>The user should be able to select a candidate role for registration after filling on all required fields of the &quot;Sign up&quot; form and tapping the  [Create account] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<assignedto>Lyuda Zubashych</assignedto>
+												<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C208</id>
+				<title>The user should be able to select a recruiter role for registration after filling on all required fields of the &quot;Sign up&quot; form and tapping the [Create account] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<assignedto>Lyuda Zubashych</assignedto>
+												<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Email&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C209</id>
+				<title>The user should not be able to continue registration with an empty &quot;Email&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<assignedto>Lyuda Zubashych</assignedto>
+												<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Password&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C210</id>
+				<title>The user should not be able to continue registration with an empty &quot;Password&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<assignedto>Lyuda Zubashych</assignedto>
+												<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Repeat password&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C211</id>
+				<title>The user should not be able to continue registration with an empty &quot;Repeat password&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C249</id>
+				<title>The user should not be able to sign up if the &quot;Repeat password&quot; value does not match the &quot;Password&quot; value.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Create account] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Sign in with Google] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C212</id>
+				<title>[Sign in with Google] button should be displayed on the &quot;Sign Up&quot; Page.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C213</id>
+				<title>The user should be redirected to the Google authentication page by clicking on [Sign in with Google] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>For logged-in users</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Chats&quot; Page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Search button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C229</id>
+				<title>The candidate should be able to filter chats by participant name.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Chats filter tabs</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>All tab</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Archive tab</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Chats list</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Chat item</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Message input area</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C237</id>
+				<title>The candidate should be able to enter a text message in the message input area.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<assignedto>Lyuda Zubashych</assignedto>
+												<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Interested] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Not interested] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C236</id>
+				<title>The candidate should be able to decline the recruiter’s proposition by tapping on [Not interested] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Bottom navigation bar</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Chats tab</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C235</id>
+				<title>The recruiter should be redirected to the &quot;Chats&quot; Page by tapping on the &quot;Chats&quot; tab.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Profile tab</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Profile&quot; Page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Role selection&quot; Page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Candidate role option</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C214</id>
+				<title>The user should be redirected to the first step of registration as a candidate by clicking on the candidate role option.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<assignedto>Lyuda Zubashych</assignedto>
+												<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C216</id>
+				<title>Candidate registration flow should contain 5 stages: role,expectations,experience,bio,contact information.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Role(1st stage)</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Desired position&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C217</id>
+				<title>The user should not be able to continue registration with an empty &quot;Desired position&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Select specialization field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C247</id>
+				<title>The candidate should be able to enter a specialization in &quot;Select specialization&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Tech skills selection field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C218</id>
+				<title>The user should be able to continue registration with a list of 5 skills in the &quot;Core technical skills&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Save and continue] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Expectations (2nd stage)</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Registration progress bar</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Desired base salary&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C219</id>
+				<title>The user should be able to specify the desired salary in dollars in the &quot;Desired salary&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C222</id>
+				<title>The user should not be able to continue the registration with an empty &quot;Desired salary&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Salary period toggle</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C220</id>
+				<title>The user should be able to enter the desired salary per year by selecting the &quot;Annual&quot; option in the salary period toggle.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C221</id>
+				<title>The user should be able to enter the desired monthly salary by selecting the &quot;Monthly&quot; option in the salary period toggle.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Desired salary&quot; input field</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Work experience&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C223</id>
+				<title>The user should not be able to continue the registration if no job experience is celected.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;English level&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C224</id>
+				<title>The user should not be able to continue the registration if the English level is not selected.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Your location&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C225</id>
+				<title>The user should be able to enter the location in the &quot;Your location&quot; field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Employment type options</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Remote&quot; checkbox</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C244</id>
+				<title>The candidate should be able to select the &quot;Remote&quot; employment option by tapping the &quot;Remote&quot; checkbox.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Office&quot; checkbox</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C245</id>
+				<title>The candidate should be able to select the &quot;Office&quot; employment option.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Desired offices locations&quot; field</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Back navigation button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>[Save changes] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>[Save and continue] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C248</id>
+				<title>The candidate should be redirected to the next registration stage after tapping on [Save and continue] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Experience (3d stage)</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Recruiter role option</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C215</id>
+				<title>The user should be redirected to the first step of registration as a recruiter by clicking on the recruiter role option.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<assignedto>Lyuda Zubashych</assignedto>
+												<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Company details&quot;(1st stage)</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;My role&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C226</id>
+				<title>The user should not be able to proceed with recruiter registration if the &quot;My role&quot; field is empty.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Company&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C227</id>
+				<title>The user should be able to enter a company name in the &quot;Company&quot; field during recruiter registration.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Save and continue] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Sign out&quot; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Candidate profile</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C230</id>
+				<title>The candidate should be able to switch between recruiter/candidate profiles.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>User info section</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Avatar</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Email</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Profile status label</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Profile navigation menu</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C232</id>
+				<title>The candidate should be able to deactivate profile in the profile settings.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Profile option</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Edit] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C231</id>
+				<title>The candidate should be able to edit the profile after tapping on [Edit profile] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Contacts option</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Preferences option</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Sign out&quot;  link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C246</id>
+				<title>The user should be able to sign out by tapping on &quot;Sign out&quot; link.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Bottom navigation bar</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Chats tab</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C233</id>
+				<title>The candidate should be redirected to the &quot;Chats&quot; Page by tapping on the &quot;Chats&quot; tab.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<assignedto>Lyuda Zubashych</assignedto>
+												<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Profile tab</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Recruiter profile</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C228</id>
+				<title>The recruiter should be able to enter the contact information during the registration process.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C234</id>
+				<title>The recruiter should be able to edit the profile.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>User info section</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Avatar</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Email</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Profile status label</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Profile details section</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Activate profile] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+</suite>
